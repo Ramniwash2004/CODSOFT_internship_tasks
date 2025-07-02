@@ -1,0 +1,118 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+body{
+      background-image: url(image.png);
+      background-repeat:no-repeat ;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding:0;
+      margin-bottom: 15%;
+      }
+ul li{
+      list-style-type:none;
+      margin-left: 4rem;
+}
+h2{
+    line-height: 0px;
+}
+.logo{
+    color: gold;
+    padding: 1rem;
+    cursor: pointer;
+}
+.navbar{
+text-align:center;
+background-color:rgb(13, 13, 14);
+display: flex;
+color: white;
+justify-content: space-between;
+}
+.navbar ul{
+   display: inline-flex;
+   color:floralwhite
+}
+.nav-items{
+    display: flex;
+    padding: 1rem;
+}
+
+.nav-items ul li:hover{
+background: floralwhite;
+color: #000000;
+border-radius:3px;
+cursor: pointer;
+}
+.paragraph{
+    text-align: center;
+    font-size: 2rem;
+    font-family:sans-serif;
+    color: white;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 5rem;
+    font-family: nos;
+    color: floralwhite;
+}
+.paragraph5{
+    font-size: 1.2rem;
+    font-family:Courier;
+    margin: 30px;
+    color: white;
+}
+
+
+
+.lets-go-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.lets-go-btn:hover{
+    background: gold;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icons a {
+     
+    display: inline-block;
+    margin-left: 2rem;
+
+ }
+
+.icons a:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    background-color:rgb(13, 13, 14);
+    margin-top: 20%;
+}
+.p1{
+    text-align: center;
+    color: white;
+    
+}

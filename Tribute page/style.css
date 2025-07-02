@@ -1,0 +1,84 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: rgb(6, 162, 6);
+      color: #333;
+
+    }
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        background-color: rgb(5, 203, 5);
+        margin-top: 1rem;
+        box-shadow: 2px 0px 10px black;
+        border-radius: 14px;
+        border-radius: 14px;
+    }
+    header{
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      font-size: 1rem;
+      background-color:rgb(6, 162, 6) ;
+      border-radius:14px 14px 0 0;
+      
+    }
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      font-weight: 500;
+    }
+    .image-section {
+      height: 40%;
+      width: 40%;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .heading{
+        text-align: center; 
+        margin-top: 1rem;
+        background-color: rgb(6, 162, 6);
+        border-radius: 14rem;
+        color: white;
+    }
+    .bio {
+      margin-top: 0 auto;
+      
+    }
+    .bio h2 {
+      color: #c0392b;
+      margin-bottom: 10px;
+      margin-top: 1rem;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .timeline {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .timeline h2 {
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+    .timeline ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
